@@ -5,11 +5,10 @@
 body {
 	background-color: #232323;
     font-family: "Montserrat", "Avenir";
-    color: white;
 }
 
 h1 {
-	color: black;
+	color: white;
 	line-height: 1.8;
     text-align: center;
 	font-weight: normal;
@@ -19,10 +18,19 @@ h1 {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
     margin-bottom: 0;
+    background-color: #232323; 
 }
-/* 
-.container {
+
+.btnContainer {
     width: 100%;
     margin: 0;  
-    padding: 20px 0;  
-} */
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  
+}
+
+.album {
+    background-color: #232323; 
+}
