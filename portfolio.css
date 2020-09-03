@@ -1,0 +1,28 @@
+:root {
+    --jumbotron-padding-y: 15rem;
+  }
+
+body {
+	background-color: #232323;
+    font-family: "Montserrat", "Avenir";
+    color: white;
+}
+
+h1 {
+	color: black;
+	line-height: 1.8;
+    text-align: center;
+	font-weight: normal;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+}
+/* 
+.container {
+    width: 100%;
+    margin: 0;  
+    padding: 20px 0;  
+} */
