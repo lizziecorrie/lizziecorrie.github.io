@@ -1,5 +1,5 @@
 :root {
-    --jumbotron-padding-y: 15rem;
+    --jumbotron-padding-y: 10rem;
   }
 
 body {
@@ -11,9 +11,16 @@ h1 {
 	color: white;
 	line-height: 1.8;
     text-align: center;
-	font-weight: normal;
+    font-weight: normal;
+    font-family: 'Ruthie', cursive;
+    font-size: 600%;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
@@ -34,3 +41,14 @@ h1 {
 .album {
     background-color: #232323; 
 }
+
+#introContainer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.col-md-4 {
+    margin: auto;
+}
+
